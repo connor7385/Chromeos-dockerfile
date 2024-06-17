@@ -1,0 +1,12 @@
+{
+  "name": "Chromebrew Dev Container",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker"
+  ],
+  "settings": {},
+  "runArgs": ["--privileged"],
+  "workspaceFolder": "/workspace"
+}
